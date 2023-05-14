@@ -2,8 +2,7 @@
 <html>
   <head>
     <title>ЗУПТ Сапсение</title>
-  </head>
-   <style>
+    <style>
       html,
       body {
         height: 100%;
@@ -11,14 +10,22 @@
         padding: 0;
       }
 
-      div {
+      #pdf-container {
         width: 100%;
         height: 100%;
       }
+
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
     </style>
+  </head>
   <body>
+    <h1>ЗУПТ Сапсение</h1>
     <div id="pdf-container">
-      <embed src="/pdf/combinepdf.pdf" type="application/pdf" width="100%" height="100%" />
+      <iframe src="/pdf/combinepdf.pdf"></iframe>
     </div>
   </body>
 </html>
