@@ -11,15 +11,14 @@
         padding: 0;
       }
 
-      object {
+      div {
         width: 100%;
         height: 100%;
       }
     </style>
   <body>
-    <object data="/pdf/combinepdf.pdf" type="application/pdf">
-      <h1>ЗУПТ Сапсение</h1>
-      <p>Unable to display PDF file. <a href="/pdf/combinepdf.pdf">Download</a> instead.</p>
-    </object>
+    <div id="pdf-container">
+      <embed src="/pdf/combinepdf.pdf" type="application/pdf" width="100%" height="100%" />
+    </div>
   </body>
 </html>
